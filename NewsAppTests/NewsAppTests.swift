@@ -2,7 +2,7 @@
 //  NewsAppTests.swift
 //  NewsAppTests
 //
-//  Created by User on 08/07/23.
+//  Created by Durga Ballabha Panigrahi on 10/07/23.
 //
 
 import XCTest

@@ -35,6 +35,9 @@
 		CEE9269E2A59A66B0085F3BC /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE9269D2A59A66B0085F3BC /* ImageLoader.swift */; };
 		CEE926A12A59B6220085F3BC /* ImageEnlargeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE926A02A59B6220085F3BC /* ImageEnlargeViewController.swift */; };
 		CEE926A42A59C8950085F3BC /* APIState.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEE926A32A59C8950085F3BC /* APIState.swift */; };
+		F27958B82A5C629A003A85DE /* NewsListViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27958B72A5C629A003A85DE /* NewsListViewModelTest.swift */; };
+		F27958BB2A5C6373003A85DE /* NewsListResourceTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27958BA2A5C6373003A85DE /* NewsListResourceTest.swift */; };
+		F27958BE2A5C639A003A85DE /* HTTPUtilityTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F27958BD2A5C639A003A85DE /* HTTPUtilityTest.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +90,9 @@
 		CEE9269D2A59A66B0085F3BC /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		CEE926A02A59B6220085F3BC /* ImageEnlargeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEnlargeViewController.swift; sourceTree = "<group>"; };
 		CEE926A32A59C8950085F3BC /* APIState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIState.swift; sourceTree = "<group>"; };
+		F27958B72A5C629A003A85DE /* NewsListViewModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListViewModelTest.swift; sourceTree = "<group>"; };
+		F27958BA2A5C6373003A85DE /* NewsListResourceTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsListResourceTest.swift; sourceTree = "<group>"; };
+		F27958BD2A5C639A003A85DE /* HTTPUtilityTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPUtilityTest.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -156,6 +162,9 @@
 		CEE926562A5943900085F3BC /* NewsAppTests */ = {
 			isa = PBXGroup;
 			children = (
+				F27958BC2A5C638A003A85DE /* HTTPUtilityTest */,
+				F27958B92A5C6358003A85DE /* NewsListResourceTest */,
+				F27958B62A5C6242003A85DE /* NewsListViewModelTest */,
 				CEE926572A5943900085F3BC /* NewsAppTests.swift */,
 			);
 			path = NewsAppTests;
@@ -294,6 +303,30 @@
 				CEE926A02A59B6220085F3BC /* ImageEnlargeViewController.swift */,
 			);
 			path = ImageEnlarge;
+			sourceTree = "<group>";
+		};
+		F27958B62A5C6242003A85DE /* NewsListViewModelTest */ = {
+			isa = PBXGroup;
+			children = (
+				F27958B72A5C629A003A85DE /* NewsListViewModelTest.swift */,
+			);
+			path = NewsListViewModelTest;
+			sourceTree = "<group>";
+		};
+		F27958B92A5C6358003A85DE /* NewsListResourceTest */ = {
+			isa = PBXGroup;
+			children = (
+				F27958BA2A5C6373003A85DE /* NewsListResourceTest.swift */,
+			);
+			path = NewsListResourceTest;
+			sourceTree = "<group>";
+		};
+		F27958BC2A5C638A003A85DE /* HTTPUtilityTest */ = {
+			isa = PBXGroup;
+			children = (
+				F27958BD2A5C639A003A85DE /* HTTPUtilityTest.swift */,
+			);
+			path = HTTPUtilityTest;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -456,7 +489,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F27958BE2A5C639A003A85DE /* HTTPUtilityTest.swift in Sources */,
 				CEE926582A5943900085F3BC /* NewsAppTests.swift in Sources */,
+				F27958BB2A5C6373003A85DE /* NewsListResourceTest.swift in Sources */,
+				F27958B82A5C629A003A85DE /* NewsListViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -635,7 +671,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -668,7 +704,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -692,7 +728,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.release.NewsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -711,7 +747,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.release.NewsAppTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -729,6 +765,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.release.NewsAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -746,6 +783,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.release.NewsAppUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";

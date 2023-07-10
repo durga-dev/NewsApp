@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  NewsApp
 //
-//  Created by User on 08/07/23.
+//  Created by Durga Ballabha Panigrahi on 10/07/23.
 //
 
 import UIKit
@@ -14,6 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        Thread.sleep(forTimeInterval: 1)// Add this code to put delay for 1 sec but not a good approach to delay forcefully.
         return true
     }
 
